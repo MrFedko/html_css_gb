@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="topnavbar.css">
+</head>
+<body>
+    <div class="topnavbar">
+        <a href="./index.html">Главная</a>
+        <a href="./catalog/catalog.html">Каталог</a>
+        <a href="#">Контакты</a>
+    </div>
+    <div class="map">	
+        <div class="wrp">
+            <div class="map-box">
+                <h2>Наши контакты</h2>
+                <p>г. Санкт-Петербург, наб. реки Фонтанки 30</p>
+                <p><a href="tel:+7 (999) 123-45-67">+7 (999) 123-45-67</a></p>
+                <p><a href="mailto:info@site.com">info@site.com</a></p>
+            </div>
+        </div>
+        <div id="map"></div>
+    </div>
+     
+    <script src="//api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU"></script>
+    <script>
+    ymaps.ready(init); 
+    function init(){
+        var myMap = new ymaps.Map("map",{center: [59.938770, 30.343563],zoom: 16});
+        ymaps.geocode("Санкт-Петербург, набережная реки Фонтанки, 30").then(function (res) {
+            var coord = res.geoObjects.get(0).geometry.getCoordinates();
+            myMap.setCenter(coord);	
+                
+            var newcoord = myMap.getGlobalPixelCenter();
+            newcoord[0] -= 150;
+            myMap.setGlobalPixelCenter(newcoord);				
+        });
+    }
+    </script>
+</body>
+</html>
