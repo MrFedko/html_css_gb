@@ -91,7 +91,7 @@
 
 ## Урок 6. Семинар. Работа с макетом и cоздание блочной структуры
 
-1. Открыть макет сайта https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Landing-Page?node-id=23%3A2
+1. Открыть макет [сайта](https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Landing-Page?node-id=23%3A2).
 2. Необходимо представить разбиение часть на блоки (Для тех учеников, которые умеют работать с Figma, разбить представленную на скриншоте часть на блоки, как в семинаре).
 ![img](./lesson_6/home_work/page.png)
 3. Создать новую папку.
