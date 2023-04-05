@@ -48,7 +48,7 @@ header img {
     font-size: 14px;
     line-height: 16px;
     color: #000000;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 .navigation a:hover {
 
@@ -62,7 +62,7 @@ main {
 
 .main__content {
     display: flex;
-    margin-right: auto;
+    justify-content: space-between;
 }
 
 .main__content__leftSide{
@@ -110,8 +110,9 @@ main {
 }
 
 .btn1{
-    width: 90px;
-    height: 19px;
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
     font-family: 'Gilroy-Bold';
     font-size: 15px;
     line-height: 18px;
@@ -121,11 +122,17 @@ main {
     background-color: #FFFFFF;
 }
 
+.btn:hover {
+    background: #cc3d09;
+}
+
+.btn1:hover{   
+    background: #c0bdbd; 
+    color: #FFFFFF;
+}
+
 .logos{
     display: flex;
     width: 1170px;
-}
-
-.image {
-    margin-right: auto;
+    justify-content: space-between;
 }
