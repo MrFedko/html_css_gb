@@ -32,14 +32,14 @@ header {
 
 .header__wrapper{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navigation {
-    padding-top: 11px;
-    padding-bottom: 12px;
-    padding-right: 200px;
-    padding-left: 346px;
-    display: flex;    
+
+    width: 533px;
+    display: flex;
     justify-content: space-between;
 }
 .link {
