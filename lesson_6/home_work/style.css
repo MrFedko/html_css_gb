@@ -28,13 +28,6 @@ img {
 header {
     margin-bottom: 82.71px;
     margin-top: 40px;
-    /* margin-left: 175px; */
-    /* margin-right: 175px; */
-    display: flex;
-}
-
-header img {
-    padding-left: 0px;
 }
 
 .header__wrapper{
@@ -42,11 +35,12 @@ header img {
 }
 
 .navigation {
-    /* padding-left: 500px; */
     padding-top: 11px;
     padding-bottom: 12px;
-    /* padding-right: 0px; */
-
+    padding-right: 200px;
+    padding-left: 346px;
+    display: flex;    
+    justify-content: space-between;
 }
 .link {
     font-family: 'Gilroy-Medium';
@@ -58,6 +52,13 @@ header img {
 .navigation a:hover {
 
     color: #F25822;
+}
+
+.select_nav {
+	border: none;
+	position: relative;
+	outline: none;	
+    
 }
 
 main {

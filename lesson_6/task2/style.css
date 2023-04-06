@@ -33,7 +33,8 @@ header {
 	padding-top: 39px;
 	padding-bottom: 39px;
 	display: flex;
-	justify-content: space-evenly;
+	gap: 40px;
+	justify-content: center;
 	padding-left: 100px;
 	padding-right: 100px;
 }
