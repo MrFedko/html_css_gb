@@ -32,6 +32,10 @@ header {
 .navigation {
 	padding-top: 39px;
 	padding-bottom: 39px;
+	display: flex;
+	justify-content: space-evenly;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 
 .link {
@@ -43,11 +47,17 @@ header {
 	color: #ffffff;
 }
 
+.link:hover {
+	color: #3a68b8;
+}
+
 main {
 	margin-bottom: 197px;
 }
 
 .main__content {
+	display: flex;
+	justify-content: space-between;
 }
 
 .main__content__leftSide {
@@ -88,6 +98,13 @@ main {
 }
 
 .btns-list {
+	display: flex;
+	flex-direction: row;
+}
+
+.btn:hover {
+	background: #ffffff; 
+    color: #3a68b8;
 }
 
 .btn {
@@ -101,6 +118,7 @@ main {
 	border-radius: 5px;
 	padding: 15px 30px;
 	border: none;
+	margin-right: 20px;
 }
 
 footer {
@@ -108,6 +126,8 @@ footer {
 }
 
 .logos {
+	display: flex;
+	justify-content: space-between;
 }
 
 .div1 {
