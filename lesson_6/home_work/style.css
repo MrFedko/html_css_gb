@@ -137,4 +137,132 @@ main {
     display: flex;
     width: 1170px;
     justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.cards {
+    display: flex;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    justify-content: space-between;
+}
+
+.card {
+    padding: 30px;
+    padding-top: 40px;
+}
+
+.card:hover {
+    background: #FFFFFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.card h2 {
+    padding-top: 25px;
+    padding-bottom: 17px;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.card p {
+    padding-bottom: 25px;
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.card button {
+    font-family: 'Gilroy-Bold';
+    font-size: 11px;
+    line-height: 150%;
+    color: #000000;
+    border: none;
+    outline: none;
+    background-color: #FFFFFF;
+}
+
+.second__page {
+    background-color: #FAFAFA;
+    padding-bottom: 100px;
+}
+
+.page_title {
+    display: flex;
+    padding-top: 92px;
+    padding-bottom: 54px;
+	align-items: center;
+	flex-direction: column;
+}
+
+.page_title h1 {
+    font-family: 'Gilroy-Bold';
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+    padding-bottom: 19px;
+}
+
+.page_title p {
+    width: 682px;
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #666666;
+}
+
+.cards__high {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.card__high {
+    background-color: #FFFFFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+    display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.card__high h2{
+    padding-top: 25px;
+    padding-bottom: 22px;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.card__high p {
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #AAAAAA;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 39px;
+}
+
+.card__high button {
+    width: 150px;
+    height: 50px;
+    margin-left: 100px;
+    margin-right: 120px;
+    margin-bottom: 50px;
+    padding: 15px;
+    font-family: 'Gilroy-Bold';
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px; 
+    border: #F25822;   
 }
