@@ -223,10 +223,13 @@ main {
 
 .card__high {
     background-color: #FFFFFF;
-    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
     display: flex;
 	align-items: center;
 	flex-direction: column;
+}
+
+.card__high:hover {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
 }
 
 .card__high h2{
