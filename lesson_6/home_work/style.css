@@ -154,7 +154,6 @@ main {
 }
 
 .card:hover {
-    background: #FFFFFF;
     box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
 }
 
