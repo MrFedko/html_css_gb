@@ -159,7 +159,7 @@
 * Расставить элементы в соответствии с макетом.
 * Адаптив создавать не нужно.
 
-[link for homework folder](./lesson_11/)
+[link for homework folder](./lesson_11/)  ++ выполнил index__hover
 
 Скрин готовой вёрстки.
 
