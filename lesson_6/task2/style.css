@@ -173,3 +173,57 @@ main {
 .big_card {
 	grid-area: 2 / 1 / 4 / 3;
 }
+
+@media (max-width: 849px) {
+	/* tab style */
+	.body {
+		min-width: 80vw;
+	}
+	.container {
+		max-width: 604px;
+		margin: 0 auto;
+	}
+
+	.main__content {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.small-title {
+		font-size: 16px;
+	}
+
+	.big-title {
+		font-size: 48px;
+	}
+
+	.main__content__leftSide {
+		padding-bottom: 128px;
+	}
+
+	.main__content img{
+		max-width: 414px;
+	}
+
+	.logos {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		gap: 32px;
+	}
+
+	.cards__list {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 32px;
+		max-height: 1331px;
+		overflow: hidden;
+	}
+	.card {
+		max-width: 362px;
+	}
+}
