@@ -227,3 +227,72 @@ main {
 		max-width: 362px;
 	}
 }
+
+@media (max-width: 375px) {
+	/* mobile */
+	.container {
+		max-width: 343px;
+		margin: 0 auto;
+	}
+	header {
+		margin-bottom: 64px;
+	}
+
+	.navigation {
+		padding-top: 23px;
+		padding-bottom: 23px;
+		display: flex;
+		gap: 16px;
+		justify-content: center;
+		padding-left: 46px;
+		padding-right: 45px;
+	}
+	.link {
+		font-size: 14px;
+		line-height: 19px;
+	}
+
+	.main__content {
+		padding: 0;
+	}
+
+	.main__content__leftSide {
+		width: 343px;
+		text-align: center;
+	}
+
+	.small-title {
+		font-size: 14px;
+		line-height: 160%;
+		margin-bottom: 16px;
+	}
+
+	.big-title {
+		font-size: 28px;
+	}
+
+	.text {
+		text-align: center;
+		width: 343px;
+		margin-bottom: 39px;
+	}
+
+	.btns-list {
+		flex-direction: column;
+		gap: 24px;
+		align-items: center;
+	}
+
+	.main__content img{
+		max-width: 343px;
+	}
+
+	.card {
+		max-width: 343px;
+	}
+
+	.cards__list {
+		max-height: 1390px;
+		overflow: hidden;
+	}
+}
