@@ -152,8 +152,9 @@ img {
 
 .head__title {
     background-color: #f1e4e6;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     height: 764px;
 }
 
@@ -390,6 +391,7 @@ span.h2pink {
     font-size: 16px;
     line-height: 19px;
     color: #f26376;
+    background: none;
 }
 
 .all__prod__button button:hover {
@@ -398,7 +400,7 @@ span.h2pink {
 }
 
 
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (max-width: 1024px) {
     .container {
         width: 736px;
     }
@@ -468,5 +470,92 @@ span.h2pink {
     .all__prod__button {
         margin-top: 33px;
         margin-bottom: 65px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .container {
+        width: 359px;
+    }
+
+    .top__container {
+        width: 375px;
+    }
+
+    .logo {
+        margin-left: 16px;
+    }
+
+    .head__buttons {
+        width: 32px;
+        margin-right: 26px;
+        overflow-x: hidden;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .right__side__head {
+        display: flex;
+        flex-direction: row;
+        margin-left: 56px;
+        margin-top: 148px;
+        margin-bottom: 149px;
+        margin-right: 56px;
+        width: 263px;
+        height: 66px;
+    }
+
+    .rectangle {
+        height: 61px;
+        margin-right: 15px;
+    }
+    
+    .text {
+        padding-top: 6px;
+        font-size: 38px;
+        line-height: 0.7;
+    }
+    
+    span.h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .top__cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 343px;
+        height: auto;
+        margin: auto;
+        margin-top: 64px;
+
+        gap: 32px;
+    }
+
+    .top__card__big {
+        grid-area: 4 / 1 / 5 / 2;
+        height: 111px;
+    }
+
+    .top__card__big img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .products {
+        margin-top: 64px;
+    }
+
+    .all__cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 64px;
+    }
+    
+    .all__prod__button {
+        margin-top: 41px;
     }
 }
